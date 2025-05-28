@@ -46,7 +46,7 @@ struct ReadingsView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: { viewModel.showingMgDL.toggle() }) {
-                        Text(viewModel.showingMgDL ? "mmol/L" : "mg/dL")
+                        Text(viewModel.showingMgDL ? "mg/dL" : "mmol/L")
                     }
                 }
             }
